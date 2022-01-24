@@ -1,0 +1,22 @@
+.create-link {
+    text-decoration: none;
+    padding: 15px 31px 16px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+    border: none;
+ 
+}
+
+.create-link:hover {
+    cursor: pointer;
+    background-color: hsl(199, 64%, 79%);
+    color: black;
+    opacity: 0.5;
+}

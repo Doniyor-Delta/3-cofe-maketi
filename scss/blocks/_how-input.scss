@@ -1,0 +1,147 @@
+
+.how-input__container {
+    padding: 168px 85px 86px;
+    background: #F2F2F2;
+    display: flex;
+}
+
+
+.how-input__menu-list {
+    @include reset-list;
+    
+
+}
+.how-input__menu-item {
+    padding: 24px 0;
+    width: 255px;
+    font-family: Fraunces;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+opacity: 0.6;
+border-bottom: solid 1px #83888F;
+}
+
+.how-input__menu-item:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.how-input__inputs {
+display: flex;
+    margin-left: 125px;
+}
+
+.how-input__button {
+    font-family: Fraunces;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #83888F;
+    background-color: transparent;
+   padding: 0;
+   border: none;
+   margin: 0 0 0 125px;
+   
+}
+.how-input__radio-content {
+    padding: 32px 28px 84px;
+background: #F4F1EB;
+border-radius: 8px;
+}
+.how-input__section {
+    display: flex;
+    flex-wrap: wrap;
+
+   
+}
+.how-input__label {
+  
+    margin: 56px auto 88px;
+    background: #F4F1EB;
+    border-radius: 8px;
+}
+
+.how-input__label:not(:last-child) {
+    margin-right: 23px;
+
+}
+
+
+
+.how-input__radio-title {
+    font-family: Fraunces;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+}
+
+.how-input__radio-description {
+    width: 172px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+.how-input__radio {
+    background-color: #F4F1EB;
+}
+
+
+.how-input__radio:checked + .how-input__radio-content {
+
+background-color:#0E8784;
+color: #fff;
+
+}
+
+.how-input__radio:hover + .how-input__radio-content {
+    background: #FDD6BA;
+    cursor: pointer;
+}
+.how-input__colum {
+    flex-direction: column;
+}
+
+.how-input-black {
+    
+    background-color: #2C343E;
+    border-radius: 10px;
+    padding: 27px 64px;
+    margin-left: 125px;
+
+}
+.black-section-title {
+    font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+.black-section-text {
+    font-family: Fraunces;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 40px;
+color: #FFFFFF;
+}
+.black-section-text__green {
+    color: #0E8784;
+}
+
+.how-input__button {
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 85px;
+}
